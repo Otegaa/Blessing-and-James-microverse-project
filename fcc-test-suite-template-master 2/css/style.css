@@ -1,0 +1,106 @@
+.logo img{
+    width: 15%;
+}
+header{
+    position: fixed;
+    background-color: #f4f2f2;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    padding: 0px 20px;
+    
+    
+}
+nav {
+    position: absolute; left: 45%;
+    margin-top: 10px;
+    margin-right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    
+}
+nav a{
+    
+    display: inline-block;
+	background-color: #852fb430;
+    width:10%;
+    font-size: 16px;
+    padding: 8px 8px;
+    text-align: center;
+    margin: 10px;
+    color: #000000;  
+    border-radius: 5px;
+    text-decoration: none;
+    overflow: auto;
+}
+.grid{
+    display: flex;
+    align-items: center;
+}
+#features{
+    margin-top: 100px;
+}
+#features > h2{
+    align-items: center;
+}
+.icon{
+    color: #2cca14;
+    width: 100px;
+    align-items: center;
+    display: flex;
+}
+#pricing{
+    flex-direction: column;
+}
+#how-to-use{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+  
+#how-to-use > iframe {
+    max-width: 560px;
+    width: 100%;
+}
+#purchase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+#purchase input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+#purchase input[type='text'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+#purchase input[type='number'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+#purchase input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #0f75f1;
+}
+label{
+    opacity: 50%;
+    color: #d72c2c;
+}
